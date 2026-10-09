@@ -1,0 +1,58 @@
+.detail-wrapper {
+  max-width: 480px;
+  margin: 1rem auto 3rem;
+  width: 100%;
+}
+
+.detail-wrapper .card {
+  box-shadow: var(--shadow-lg);
+}
+
+.detail-wrapper .card:hover {
+  transform: none;
+}
+
+.detail-wrapper .card-img-container {
+  height: 320px;
+  padding: 2rem;
+}
+
+.detail-wrapper .card:hover img {
+  transform: none;
+}
+
+.detail-wrapper .card h3 {
+  font-size: 1.55rem;
+  padding: 1.5rem 1.5rem 0.5rem;
+}
+
+.detail-wrapper .card-description {
+  display: block;
+  overflow: visible;
+  line-clamp: unset;
+  -webkit-box-orient: initial;
+  padding: 0 1.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.detail-wrapper .card-price-badge {
+  padding: 0.55rem 1.6rem;
+  margin: 0.5rem auto 1.5rem;
+}
+
+.detail-wrapper .price-symbol {
+  font-size: 1.25rem;
+}
+
+.detail-wrapper .price-number {
+  font-size: 1.75rem;
+}
+
+.detail-wrapper .card button {
+  margin: 0 1.5rem 1.5rem;
+  width: calc(100% - 3rem);
+  padding: 0.95rem;
+  font-size: 1rem;
+}

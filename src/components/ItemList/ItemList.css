@@ -1,0 +1,24 @@
+.products-container {
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.products-container > a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+}
+
+.products-container > a:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 4px;
+  border-radius: var(--radius-lg);
+}
+
+.products-container > a > .card {
+  width: 100%;
+}

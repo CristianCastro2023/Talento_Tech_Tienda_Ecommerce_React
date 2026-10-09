@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --surface: #ffffff;
+  --card: #ffffff;
+  --card-img-bg: #f8fafc;
+  --border: #e2e8f0;
+  --border-hover: #c7d2fe;
+  --text: #0f172a;
+  --text-secondary: #475569;
+  --disabled: #cbd5e1;
+
+  --primary: #4f46e5;
+  --primary-hover: #4338ca;
+  --success: #10b981;
+  --danger: #ef4444;
+
+  --shadow-sm: 0 2px 5px rgba(15, 23, 42, 0.05);
+  --shadow-md: 0 10px 25px -5px rgba(15, 23, 42, 0.08), 0 8px 10px -6px rgba(15, 23, 42, 0.03);
+  --shadow-lg: 0 20px 35px -8px rgba(15, 23, 42, 0.12), 0 10px 15px -4px rgba(15, 23, 42, 0.05);
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+}
+
+body {
+  background:
+    radial-gradient(circle at 12% 15%, rgba(99, 102, 241, 0.18) 0%, transparent 45%),
+    radial-gradient(circle at 88% 18%, rgba(168, 85, 247, 0.16) 0%, transparent 45%),
+    radial-gradient(circle at 50% 85%, rgba(59, 130, 246, 0.15) 0%, transparent 50%),
+    #e9eff7;
+  background-attachment: fixed;
+  color: var(--text);
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  width: min(1200px, 92%);
+  margin: 3rem auto;
+}
+
+main > p {
+  text-align: center;
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  margin-top: 3.5rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2.2rem;
+  font-size: 2.25rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  background: linear-gradient(135deg, #0f172a 0%, #312e81 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.primary {
+  color: var(--text);
+}
+
+.secondary {
+  color: var(--text-secondary);
+}
+
+.disabled {
+  color: var(--disabled);
+}
+
+.bg-primary {
+  background: var(--primary);
+  color: #ffffff !important;
+}
+
+.bg-success {
+  background: var(--success);
+  color: #ffffff !important;
+}
+
+.bg-delete {
+  background: var(--danger);
+  color: #ffffff !important;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: 0.85rem 1.6rem;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: var(--shadow-sm);
+}
+
+.bg-primary:hover {
+  background: var(--primary-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px -5px rgba(15, 23, 42, 0.2);
+}
+
+.bg-primary:active {
+  transform: translateY(0);
+}
+
+.bg-success:hover {
+  filter: brightness(0.95);
+  transform: translateY(-1px);
+}
+
+.bg-delete:hover {
+  filter: brightness(0.95);
+  transform: translateY(-1px);
+}
+
+.btn:disabled {
+  background: var(--disabled);
+  color: #94a3b8;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+

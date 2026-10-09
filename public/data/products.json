@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Zapatilla Deportiva Nike Azul Hombre",
+    "description": "Zapatilla deportiva para hombre en azul vibrante con detalles modernos, diseñada para ofrecer máxima comodidad y amortiguación en tus entrenamientos diarios.",
+    "price": 65000,
+    "image": "/img/footware/product-1.jpg",
+    "category": "hombre"
+  },
+  {
+    "id": 2,
+    "name": "Zapatilla Azul Cian Nike",
+    "description": "Calzado infantil liviano y flexible en tonos cian, ideal para proteger los pies de los más chicos con un calce seguro y confortable durante todo el día.",
+    "price": 42000,
+    "image": "/img/footware/product-2.jpg",
+    "category": "infantil"
+  },
+  {
+    "id": 3,
+    "name": "Zapatilla Deportiva Urbana Roja",
+    "description": "Zapatilla urbana de estilo audaz en color rojo, pensada para destacar en tus salidas casuales combinando una gran comodidad con tendencia actual.",
+    "price": 71000,
+    "image": "/img/footware/product-3.jpg",
+    "category": "hombre"
+  },
+  {
+    "id": 4,
+    "name": "Zapatilla Deportiva Universe Marron",
+    "description": "Calzado versátil en elegante tono marrón, perfecto para equilibrar un look relajado de fin de semana con la durabilidad que necesitas.",
+    "price": 54000,
+    "image": "/img/footware/insta-5.jpg",
+    "category": "dama"
+  },
+  {
+    "id": 5,
+    "name": "Zapatilla Deportiva Nike Violeta",
+    "description": "Diseño deportivo para mujer en llamativo color violeta, con suela anatómica que absorbe los impactos para acompañarte en cada rutina con estilo.",
+    "price": 69500,
+    "image": "/img/footware/product-7.jpg",
+    "category": "mujer"
+  },
+  {
+    "id": 6,
+    "name": "Zapato Mujer Rosado",
+    "description": "Zapato femenino en delicado tono rosado, ideal para completar un conjunto elegante o casual aportando un toque sutil de distinción.",
+    "price": 48000,
+    "image": "/img/footware/sandalia.jpg",
+    "category": "mujer"
+  },
+  {
+    "id": 7,
+    "name": "ZapatIlla Bebe Gris",
+    "description": "Zapatilla súper suave y liviana en color gris para bebés, diseñada para facilitar el calce y cuidar los primeros pasos con total delicadeza.",
+    "price": 38500,
+    "image": "/img/footware/Zapatilla_bebe_gris.jpg",
+    "category": "infantil"
+  },
+  {
+    "id": 8,
+    "name": "ZapatIlla Nike Verde Azul",
+    "description": "Zapatilla de rendimiento superior que combina tonos verdes y azules, ofreciendo gran tracción y soporte firme para tus actividades físicas.",
+    "price": 78000,
+    "image": "/img/footware/product-5.jpg",
+    "category": "hombre"
+  },
+  {
+    "id": 9,
+    "name": "ZapatIlla Blanca Puma",
+    "description": "Clásica zapatilla urbana en color blanco con diseño minimalista, fácil de combinar con cualquier tipo de vestimenta diaria y moderna.",
+    "price": 62000,
+    "image": "/img/footware/insta-4.jpg",
+    "category": "mujer"
+  }
+]
